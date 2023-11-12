@@ -3,11 +3,6 @@
         "src":"book/wsgi.py",
         "use":"@vercel/python",
         "config":{"maxLambdaSize":"15mb","runtime":"python 3.9"}
-    }],
-    "route":[
-        {
-            "src":"/(.*)",
-            "dest":"book/wsgi.py"
-        }
-    ]
+    }]
+
 }
